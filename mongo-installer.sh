@@ -14,6 +14,14 @@ sudo apt-get install -y mongodb-org
 
 #verify installation
 
+if [ -d "/usr/share/doc/mongodb-org-server" ]; then
+
+	echo "Installation successful";
+else
+	echo "Installation failed";
+fi
+
+
 
 
 
